@@ -84,7 +84,8 @@
 					<th>Locations Used</th>
 				</tr>
 				<tr>
-					<td rowspan='2'>Fire mages have the ability to bend inorganic plasmic substances. <br>Requires 1 Solar year of schooling.</td>
+					<td rowspan='2'>Fire mages have the ability to bend inorganic plasmic substances.
+					<br> Requires 1 Solar year of schooling.</td>
 					<td>Mercury</td>
 				</tr>
 				<tr><td>Venus</td></tr>
@@ -108,7 +109,8 @@
 						<th>Locations Used</th>
 					</tr>
 					<tr>
-						<td rowspan='4'>Air mages have the ability to bend inorganic gaseous substances. <br> Requires 2 Solar years of schooling.</td>
+						<td rowspan='4'>Air mages have the ability to bend inorganic gaseous substances.
+						<br> Requires 2 Solar years of schooling.</td>
 						<td>Jupiter</td>
 					</tr>
 					<tr><td>Urunos</td></tr>

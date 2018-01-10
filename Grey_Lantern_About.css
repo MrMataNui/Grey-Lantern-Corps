@@ -70,6 +70,7 @@ li a.dropdown:hover .dropbtn {background-color: red;}li.dropdown {display: inlin
 @font-face{font-family: Jovian;src: url('Languages/Jovian.ttf'),url('Jovian.eot');}
 @font-face{font-family: BSSYM7;src: url('Languages/BSSYM7.ttf'),url('BSSYM7.eot');}
 @font-face{font-family: Plutonian;src: url('Languages/Plutonian.ttf'),url('Plutonian.eot');}
+.Martian {font-family: 'Xeheixw', Times, serif; font-size: 105%;}
 .xeheixw {font-family: 'Xeheixw', Times, serif; font-size: 105%;}
 .jovian {font-family: 'jovian', Times, serif; font-size: 105%;}
 .BSSYM7 {font-family: 'BSSYM7', Times, serif; font-size: 105%;}

@@ -10,7 +10,7 @@
 			<a href="../../Grey_Lantern_Story.php"><button type="button" class="btn btn-primary btn-lg">History</button></a>
 		</div>
 		<div class="btn-group">
-			<a href="../../Magic_Classes/Magic_Classes.php"><button type="button" class="btn btn-primary btn-lg">Magic</button></a>
+			<a href="../../Magic_Classes/Magic_Classes_Database.php"><button type="button" class="btn btn-primary btn-lg">Magic</button></a>
 		</div>
 		<div class="btn-group">
 			<a href="../../Planets/planet_list.php"><button type="button" class="btn btn-primary btn-lg">Planets</button></a>

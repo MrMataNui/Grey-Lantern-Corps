@@ -30,7 +30,7 @@
 			<ul class="topnav">
 				<li><a href="https://sites.google.com/site/comiclanterns/" target="_blank">My Main Site</a></li>
 				<li><a href="Contact_Me.php">Contact Me</a></li>
-				<li class='right'><a href="https://github.com/MrMataNui/Grey-Lantern-Corps" target="_blank">Github</a></li>
+				<li class='right'><a href="https://github.com/MrMataNui" target="_blank">Github</a></li>
 				<li class='right'><a href="https://www.pinterest.com/tylertolson1/" target="_blank">Pinterest</a></li>
 				<li class='right'><a href="https://plus.google.com/u/0/113144635205362307656" target="_blank">Google+</a></li>
 				<li class='right'><a href="http://grey-lantern-corps.tumblr.com/" target="_blank">Tumblr</a></li>

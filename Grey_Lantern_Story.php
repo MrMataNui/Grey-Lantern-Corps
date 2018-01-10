@@ -14,6 +14,7 @@
 		<script src='http://code.jquery.com/jquery-1.8.3.min.js'></script>
 		<script src='jquery/Article_Switch.js'></script>
 		<script src='jquery/jquery-3.2.0.min.js'></script>
+		<script src='Database/Martian/MarTranslate.js'></script>
 		<link rel='stylesheet' href='Grey_Lantern_About.css'>
 		<style>
 			.BSSYM7 {color: purple;}
@@ -109,7 +110,6 @@
 			<h1>History</h1>
 			<script src='jquery/Chitika.js'></script>
 			<!-- <script type='text/javascript' src='//cdn.chitika.net/getads.js' async></script> -->
-
 			<?php include('Prologue.php'); ?>
 			<h2 id='Part 1'>Part 1</h2>
 			<article>
@@ -128,9 +128,15 @@
 				<section>
 					<p>Swnitu worked in the Martian tourist facility which filters tourists throughout Olympus Mons and Valles Marineris, the Solar System's largest mountain and valley respectively. He is a stone mage, able to move objects up to 50 tonnes. His job there was to move the transport vehicles to and from the attractions. Working there since he was 4 Solar years (Soyas), he was starting to feel exhausted and felt sluggish from doing the same thing for nearly 2 Soyas and was craving excitement. On slow days he would often think about the ancient stories he used to hear when he was younger. He was told about the time before the colonies when there was only one race of humans. He was always fond of those stories. At least they felt the excitement of building the adaptable colonies and setting them off. Swnitu, however, couldn't have known that an adventure would soon come his way.</p>
 					<p>One day, a Tritonite, named Osa, was on board and felt wonderful to finally be visiting the inner system. They felt exasperated as he witnessed the opening banner:</p>
-					<blockquote><span class='xeheixw'>&ldquo;Tyaz, zatihi Wnisi Cahuns.Ze lundoy, yun enehody.Qal, wligu enehidi.&rdquo;</span><sup> [1]</sup></blockquote>
+					<!-- <blockquote><span class='xeheixw'>Tyaz, zatihi Wnisi Cahuns.Ze lundoy, yun enehody.Qal, wligu enehidi.&rdquo;</span><sup> [1]</sup></blockquote> -->
+					<blockquote><span id='Part1Chap2' class='xeheixw'></span><sup> [1]</sup></blockquote>
 					<p>He saw Swnitu using geokinesis and asks him a few questions about being a stone mage. Swnitu explained how his abilities work and that he had to study the philosophy and ethics, had a technological implant, and then needed to be trained to learn how to use the ability. The total process takes 3 Soyas to accomplish. Swnitu was a duster, able to manipulate sand, and was <!-- --> .</p>
-					<blockquote class='translate'><sup>[1]</sup><em>Hello, and welcome to the Enisi Stadium. If you need to the bathroom, then turn left. Otherwise, go right.</em></blockquote>
+					<blockquote class='translate'><sup>[1]</sup><em id='Part1Chap2Tr'></em></blockquote>
+					
+					<script>
+						marsTranslate('Hello, and welcome to the Enisi Stadium. If you need to the bathroom, then turn left. Otherwise, go right.', '#Part1Chap2');
+					</script>
+					
 				</section>
 				<h3 id='Chapter 3'>Chapter 3</h3>
 				<h4>The Scholars</h4>
@@ -168,12 +174,18 @@
 						<p><em><strong>Jalten</strong></em>: 'I presume they're pretty similar, but I don't know anyone who is a stone mage.'</p>
 						<p>Everyone's conversation was halted when another person suddenly arrived in the center of the room. When he appeared, everyone felt a large and strange shockwave going outward that everyone felt, but no one could notice any effects from it.</p>
 						<p><em><strong>???</strong></em>: 'Welcome, everyone, to Ceres. You have been called here because all of you are needed in order to...'</p>
-						<p><em><strong>Vravag</strong></em>: <span class='xeheixw'>&ldquo;Zak, swnenondoo et swneid ijedoo derin?&rdquo;</span><sup> [1]</sup></p>
+						<!-- <p><em><strong>Vravag</strong></em>: <span class='xeheixw'>&ldquo;Zak, swnenondoo et swneid ijedoo derin?&rdquo;</span><sup> [1]</sup></p> -->
+						<p><em><strong>Vravag</strong></em>: <span id='Part2Chap4D1' class='xeheixw'></span><sup> [1]</sup></p>
 						<p><em><strong>???</strong></em>: 'I came here using an ability none of you are currently aware of.'</p>
 						<p><em><strong>Boroz&euml;</strong></em>: 'Either way, why did you bring all of us here? And why did you also bring along a Mercurian and a Venusian in the middle of their competition?'</p>
 						<p><em><strong>???</strong></em>: 'I have brought you here because the fate of the Solar System is at stake.'</p>
-						<blockquote class='translate'><sup>[1]</sup><em>Wait, who are you and how did you get here?</em></blockquote>
+
+						<blockquote class='translate'><sup>[1]</sup><em id='Part2Chap4D1Tr'></em></blockquote>
+						<!-- <blockquote><em id='Part2Chap4D1Mr'></em></blockquote> -->
 						<!-- <p>Zhak, sunenonshoo eth suneish ijesho sherin</p> -->
+						<script>
+							mercTranslate('Wait, who are you and how did you get here?', '#Part2Chap4D1');
+						</script>
 					</section>
 				<h3 id='Chapter 5'>Chapter 5</h3>
 				<h4>The Visitor</h4>
@@ -191,27 +203,44 @@
 					<section>
 						<p>As everyone started to calm down, they noticed that there was an extra person in the room. Vravag and Qonok stopped arguing for a moment while the assistant explains himself.</p>
 						<p><em><strong>Kasil</strong></em>: 'Hello, everyone. My name is Kasil, and I am truly sorry for the vagueness of the Tenul a moment ago. I will explain everything you need to know. Firstly, ...'</p>
-						<p><em><strong>Boroz&euml;</strong></em>: 'So that guy’s name is Tenul?'</p>
-						<p><em><strong>Kasil</strong></em>: 'Yes, he is an astrokinetic, able to use other forms of magic and able to bend space itself. I know you’ll ask next why he can’t fix the problem himself, and I can’t answer that because he has not given me that information.'</p>
-						<p><em><strong>Vravag</strong></em>: <span class='xeheixw'>&ldquo;Kubure? &ldquo;Zuneve xeiyo, qa bini zunul fonoto!&rdquo;</span><sup> [1]</sup></p>
-						<p><em><strong>Qonok</strong></em>: <span class='xeheixw'>&ldquo;Zam, de bini!&rdquo;</span><sup> [2]</sup></p>
+						<p><em><strong>Boroz&euml;</strong></em>: 'So that guy's name is Tenul?'</p>
+						<p><em><strong>Kasil</strong></em>: 'Yes, he is an astrokinetic, able to use other forms of magic and able to bend space itself. I know you'll ask next why he can't fix the problem himself, and I can't answer that because he has not given me that information.'</p>
+						<!-- <p><em><strong>Vravag</strong></em>: <span class='xeheixw'>&ldquo;Kubure? &ldquo;Zuneve xeiyo, qa bini zunul fonoto!&rdquo;</span><sup> [1]</sup></p> -->
+						<p><em><strong>Vravag</strong></em>: <span id='Part2Chap6D1' class='xeheixw'></span><sup> [1]</sup></p>
+						<p><em><strong>Qonok</strong></em>: <span id='Part2Chap6D2' class='xeheixw'></span><sup> [2]</sup></p>
 						<p><em><strong>Kasil</strong></em>: 'I understand your concern, but I have been instructed to show you how to work as a team.'</p>
 						<p><em><strong>Swnitu</strong></em>: 'Boroz&euml;, should we trust this guy?'</p>
 						<p><em><strong>Boroz&euml;</strong></em>: 'Well, they did figure out a way to bring us all here, somehow.'</p>
 						<p><em><strong>Swnitu</strong></em>: 'Ok, I guess.'</p>
 						<p><em><strong>Boroz&euml;</strong></em>: 'It's settled, then. We agree to be trained.'</p>
 						<p><em><strong>Kasil</strong></em>: 'Ok. Your training will begin at sunrise tomorrow.'</p>
-						<p><em><strong>Vravag</strong></em>: <span class='xeheixw'>&ldquo;Din ko-tamev kogud.&rdquo;</span><sup> [3]</sup></p>
-						<p><em><strong>Qonok</strong></em>: <span class='xeheixw'>&ldquo;Bin den zo-kutu.&rdquo;</span><sup> [4]</sup></p>
+						<p><em><strong>Vravag</strong></em>: <span id='Part2Chap6D3' class='xeheixw'></span><sup> [3]</sup></p>
+						<p><em><strong>Qonok</strong></em>: <span id='Part2Chap6D4' class='xeheixw'></span><sup> [4]</sup></p>
 						
-						<blockquote class='translate'><sup>[1]</sup><em>What? Explain yourself, or I’ll burn you where you stand!</em></blockquote>
-						<blockquote class='translate'><sup>[2]</sup><em>Yes, and so will I!</em></blockquote>
-						<blockquote class='translate'><sup>[3]</sup><em>This had better be worth it.</em></blockquote>
-						<blockquote class='translate'><sup>[4]</sup><em>I don't trust this guy.</em></blockquote>
-						<!--<p><sup>[1]</sup>'Kubure? Zhuneve cheiyo, qa bini zhunul fonoto!'</p>
-						<p><sup>[2]</sup>'Zham, she bini!'</p>
-						<p><sup>[3]</sup>'Shin ko-tameve kongush.'</p>
-						<p><sup>[4]</sup>'Bin shen zho-kutu.'</p>-->
+						<blockquote class='translate'><sup>[1]</sup><em id='Part2Chap6D1Tr'>What? Explain yourself, or I'll burn you where you stand!</em></blockquote>
+						<!-- <blockquote><em id='Part2Chap6D1Mr'></em></blockquote> -->
+						<blockquote class='translate'><sup>[2]</sup><em id='Part2Chap6D2Tr'>Yes, and so will I!</em></blockquote>
+						<!-- <blockquote><em id='Part2Chap6D2Mr'></em></blockquote> -->
+						<blockquote class='translate'><sup>[3]</sup><em id='Part2Chap6D3Tr'>This had better be worth it.</em></blockquote>
+						<!-- <blockquote><em id='Part2Chap6D3Mr'></em></blockquote> -->
+						<blockquote class='translate'><sup>[4]</sup><em id='Part2Chap6D4Tr'>I don't trust this guy.</em></blockquote>
+						<!-- <blockquote><em id='Part2Chap6D4Mr'></em></blockquote> -->
+
+					
+						<script>
+							mercTranslate("What? Explain yourself, or I'll burn you where you stand", '#Part2Chap6D1');
+							mercTranslate('Yes, and so will I!', '#Part2Chap6D2');
+							mercTranslate('This had better be worth it.', '#Part2Chap6D3');
+							mercTranslate("I don't trust this guy.", '#Part2Chap6D4');
+						</script>
+					
+					
+						<!--
+							<p><sup>[1]</sup>'Kubure? Zhuneve cheiyo, qa bini zhunul fonoto!'</p>
+							<p><sup>[2]</sup>'Zham, she bini!'</p>
+							<p><sup>[3]</sup>'Shin ko-tameve kongush.'</p>
+							<p><sup>[4]</sup>'Bin shen zho-kutu.'</p>
+						-->
 					</section>
 			</article>
 			
@@ -220,12 +249,12 @@
 				<h3 id='Chapter 7'>Chapter 7</h3>
 				<h4>The Training</h4>
 					<section>
-						<p>Kasil took everyone on a tour of the premises and showed them the rooms that they would be staying in. Each room replicated the environment of its inhabitant’s home planet. For Vravag and Qonok, the rooms had to be heated to the high temperatures of their planets. Jalten, Vravag and Pihoe-Xo’s rooms were positioned closest to the artificial atmosphere generators, and Jalten and Boroz&euml;’s rooms were nearest to the artificial gravity generators, due to them being from the largest inhabited bodies.<sup class='explain'>[1]</sup> Jalten was at first stunned, because he didn't think that an outpost on such a small dwarf planet would be able to replicate Earth-like gravity, but then again, in school he wasn’t paying attention to anything other than aeronautics. After they got settled in, Swnitu went to ask Kasil a few questions about the upcoming events.</p>
+						<p>Kasil took everyone on a tour of the premises and showed them the rooms that they would be staying in. Each room replicated the environment of its inhabitant's home planet. For Vravag and Qonok, the rooms had to be heated to the high temperatures of their planets. Jalten, Vravag and Pihoe-Xo's rooms were positioned closest to the artificial atmosphere generators, and Jalten and Boroz&euml;'s rooms were nearest to the artificial gravity generators, due to them being from the largest inhabited bodies.<sup class='explain'>[1]</sup> Jalten was at first stunned, because he didn't think that an outpost on such a small dwarf planet would be able to replicate Earth-like gravity, but then again, in school he wasn't paying attention to anything other than aeronautics. After they got settled in, Swnitu went to ask Kasil a few questions about the upcoming events.</p>
 						<p><em><strong>Swnitu</strong></em>: 'Do you know who the Tenul actually is, and why he doesn't just explain to us why he's bringing us all together, or at least who he is?'</p>
-						<p><em><strong>Kasil</strong></em>: 'The Tenul is an old friend of mine, and I could say that he was one of the best mages of his time, but he has instructed me not to inform you of much until the current situation has been dealt with. However, I am at the liberty of saying that we knew each other for many soyas and that for as long as we’ve known each other, he had been an astromage, able to influence spacetime itself.'</p>
+						<p><em><strong>Kasil</strong></em>: 'The Tenul is an old friend of mine, and I could say that he was one of the best mages of his time, but he has instructed me not to inform you of much until the current situation has been dealt with. However, I am at the liberty of saying that we knew each other for many soyas and that for as long as we've known each other, he had been an astromage, able to influence spacetime itself.'</p>
 						<p><em><strong>Swnitu</strong></em>: 'Astromage? Those tests were terminated nearly 20 soyas ago. Why would he think that astromages would actually exist?'</p>
 						<p><em><strong>Kasil</strong></em>: 'To this day he refuses to tell me. Whenever I ask him about him about it, he keeps changing the topic. In the meantime, you need to get rested so that you can start your training.'</p>
-						<p><em><strong>Swnitu</strong></em>: 'Fine, then. I’ll go.'</p>
+						<p><em><strong>Swnitu</strong></em>: 'Fine, then. I'll go.'</p>
 						<p><em><strong>Kasil</strong></em>: '///'</p>
 						<p><em><strong>Swnitu</strong></em>: '///'</p>
 						<p>The next day, Kasil led the group into the training grounds so that they could hone their skills to combat the upcoming threat and to make sure that everyone knew the full extent of the situation.</p>

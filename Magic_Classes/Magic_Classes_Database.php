@@ -57,7 +57,7 @@ foreach ($magic as $magicType) :
 			$style = 'color:red';
 			break;
 		case 2:
-			$magic_loc = array('Jupiter', 'Urunos', 'Earth', 'Saturn');
+			$magic_loc = array('Jupiter', 'Uranus', 'Earth', 'Saturn');
 			$style = 'color:#36f';
 			break;
 		case 3:
@@ -124,7 +124,7 @@ endforeach;
 						<?php foreach ($all_magic as $magicType) : ?>
 						<?php if ($magicType['magicID'] > 5 ) {break;} ?>
 							<li class='<?php echo $magicType['magicType']; ?>'>
-								<a href='Magic_Classes.php?magicID=<?php echo $magicType['magicID']; ?>'>
+								<a href='Magic_Classes_Database.php?magicID=<?php echo $magicType['magicID']; ?>'>
 									<?php echo $magicType['magicName']; ?>
 								</a>
 							</li>
@@ -150,8 +150,16 @@ endforeach;
 						</tr>
 						<tr>
 							<td rowspan='<?php echo sizeof($magic_loc); ?>'>
-								<?php echo $magicLoc['magicDesc1'] . '<br>' . $magicLoc['magicDesc2']; ?>
-								<?php if ($magicLoc['magicDesc3'] != '') echo  '<br><strong>' . $magicLoc['magicDesc3'] . '</strong>'; ?>
+								<?php echo 
+									$magicLoc['magicDesc1']
+									. 'mages have the ability to bend inorganic '
+									. $magicLoc['magicDesc2']
+									. ' substances.'
+									.'<br>'
+									.'Requires '
+									. $magicLoc['magicDesc3']
+									. ' of schooling.'; ?>
+								<?php if ($magicLoc['magicDesc4'] != '') echo  '<br><strong>' . $magicLoc['magicDesc4'] . '</strong>'; ?>
 							</td>
 							<td><?php echo $magic_loc[0]; ?></td>
 						</tr>
